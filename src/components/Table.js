@@ -1,8 +1,13 @@
 import React from 'react'
+import Columns from './Columns'
 
 function Table() {
   return (
-    <div>Table</div>
+    <table>
+        <tbody>
+            <tr><Columns/></tr>
+        </tbody>
+    </table>
   )
 }
 
