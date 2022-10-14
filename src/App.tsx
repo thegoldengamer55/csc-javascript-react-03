@@ -6,11 +6,12 @@ import Counter from './components/Counter.js';
 import FunctionClick from './components/FunctionClick.js';
 import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
+import Greeting from './components/Greet';
 
 function App() {
   return (
     <div className="App">
-      <EventBind></EventBind>
+      <Greeting/>
     </div>
   );
 }
