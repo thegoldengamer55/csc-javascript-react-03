@@ -7,11 +7,18 @@ import FunctionClick from './components/FunctionClick.js';
 import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
 import Greeting from './components/Greet';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-      <Greeting/>
+      <Table/>
+      {/* <StyleSheet main={true}/> */}
     </div>
   );
 }
